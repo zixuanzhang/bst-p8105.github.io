@@ -225,6 +225,32 @@ $(document).ready(function () {
 <h3>Add some links</h3>
 <p>I like <a href="https://www.google.com/">google</a></p>
 <p>I can link directly to my <a href="about.html">about page</a>.</p>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## ── Attaching packages ───────────────────────────────────────────────────────── tidyverse 1.2.1 ──</code></pre>
+<pre><code>## ✔ ggplot2 3.0.0     ✔ purrr   0.2.5
+## ✔ tibble  1.4.2     ✔ dplyr   0.7.6
+## ✔ tidyr   0.8.1     ✔ stringr 1.3.1
+## ✔ readr   1.1.1     ✔ forcats 0.3.0</code></pre>
+<pre><code>## ── Conflicts ──────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>tibble(
+  x = 1:10,
+  y = x + 2
+)</code></pre>
+<pre><code>## # A tibble: 10 x 2
+##        x     y
+##    &lt;int&gt; &lt;dbl&gt;
+##  1     1     3
+##  2     2     4
+##  3     3     5
+##  4     4     6
+##  5     5     7
+##  6     6     8
+##  7     7     9
+##  8     8    10
+##  9     9    11
+## 10    10    12</code></pre>
 </div>
 
 
