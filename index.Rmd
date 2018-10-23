@@ -16,6 +16,8 @@ I like [google](https://www.google.com/)
 
 I can link directly to my [about page](about.html).
 
+<img src="images/apple.jpg" style="width:75%">
+
 ```{r}
 library(tidyverse)
 
