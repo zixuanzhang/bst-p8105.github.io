@@ -6,7 +6,7 @@ navbar:
     - text: "About"
       href: about.html
     - text: "Dashboard"
-      href: code.Rmd
+      href: _dashboard_template.html
     - icon: fa-envelope fa-lg
       href: mailto:<zz2602@columbia.edu>
     - icon: fa-github fa-lg
